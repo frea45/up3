@@ -46,12 +46,12 @@ class Config(object):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://abirhasan2005:abirhasan@cluster0.i6qzp.mongodb.net/cluster0?retryWrites=true&w=majority")
-    SESSION_NAME = os.environ.get("SESSION_NAME", "upoo")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "upooo")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001787336960"))
     LOGGER = logging
     OWNER_ID = int(os.environ.get("OWNER_ID", "763990585"))
     # Update channel for Force Subscribe
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "ir_botz")
     
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "ir_uploadbot")
     PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "0").split()))
